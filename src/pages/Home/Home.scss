@@ -1,0 +1,45 @@
+@import '../../resoureces/variables';
+
+.home {
+  width: 100vw;
+
+  .banner {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    .bck {
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .7;
+      background: right / cover no-repeat url(../../resoureces/img/header.jpg);
+    }
+  
+    h1, h3 {
+      text-transform: uppercase;
+      color: $white;
+      font-family: "OpenSans-Lighter";
+      font-weight: 100;
+      margin: 0;
+    }
+    h1 {
+      font-size: 10vw;
+    }
+    h3 {
+      font-size: 4vw;
+    }
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: $padding;
+  }
+}

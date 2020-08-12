@@ -1,0 +1,30 @@
+@import '../../resoureces/variables';
+
+.boxe {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  width: 23.81vw;
+  text-align: center;
+  align-items: center;
+  h3 {
+    font-size: 2.38vw;
+    font-weight: normal;
+  }
+  p {
+    font-size: 1.59vw;
+  }
+  a, h3 {
+    color: $base-color;
+  }
+
+  @media (max-width: $sm-screen) {
+    & .my-btn {
+      width: 19.531vw;
+      height: 3.9vw;
+      a {
+        font-size: 1.6vw;
+      }
+    }
+  }
+}

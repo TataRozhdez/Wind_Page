@@ -1,0 +1,37 @@
+@import './resoureces/variables';
+@import './resoureces/font/font';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", "OpenSans", "OpenSans-Lighter", sans-serif;
+  font-size: 16px;
+  color: $txt-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+  color: $white;
+}
+
+ul {
+  list-style: none;
+}
