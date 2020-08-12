@@ -24,6 +24,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
 }
 
 a {
@@ -34,4 +36,60 @@ a {
 
 ul {
   list-style: none;
+}
+
+.baner {
+  background: center / cover no-repeat url(./resoureces/img/bckBaner.png);
+  padding: 3.03vw;
+  h1 {
+    margin-top: 3.2vw;
+    font-weight: 100;
+    color: $white;
+    font-family: "OpenSans-Lighter";
+    @media (max-width: $xs-screen) {
+      font-size: 3.5vw;
+      margin-top: 7.03vw;
+    }
+  }
+}
+
+.content-txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: $padding;
+  position: relative;
+
+  h2 {
+    color: $base-color;
+    font-size: 2.5vw;
+    font-weight: 100;
+    @media (max-width: $xs-screen) {
+      font-size: 11px;
+    }  
+  }
+  p {
+    font-size: 1.5vw;
+    @media (max-width: $xs-screen) {
+      font-size: 10px;
+    }
+  
+  }
+}
+
+.gray-content {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  text-align: center;
+  grid-gap: 10px;
+  background-color: $gray;
+  padding: $padding;
+  h3 {
+    font-size: 1.944vw;
+  }
+  p {
+    font-size: 1.3vw;
+    line-height: 1.7vw;
+  }
 }

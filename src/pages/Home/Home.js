@@ -3,7 +3,7 @@ import Navbar from '../../component/Navbar/Navbar'
 import MyButton from '../../component/MyButton/MyButton'
 import Boxe from '../../component/Boxe/Boxe'
 import Posts from '../../component/Posts/Posts'
-
+import Footer from '../../component/Footer/Footer'
 import './Home.scss'
 
 const boxes = [
@@ -40,6 +40,7 @@ const Home = () => {
         ))}
       </div>
       <Posts />
+      <Footer />
     </div>
   )
 }

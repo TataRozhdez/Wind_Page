@@ -1,0 +1,18 @@
+@import '../../resoureces/variables';
+
+.about {
+  width: 100vw;
+
+  .paralax-about{
+    width: 100%;
+    background: top / contain no-repeat url(../../resoureces/img/team.jpg);
+    background-attachment: fixed;
+    height: 50vh;
+    margin: 20px 0;
+    @media (max-width: $xs-screen) {
+      background-attachment: unset;
+      height: 40vh;
+      margin: 13px 0;
+    }
+  }
+}

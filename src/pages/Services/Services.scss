@@ -1,0 +1,36 @@
+@import '../../resoureces/variables';
+
+.services {
+  width: 100vw;
+
+  & .content-txt {
+    min-height: 55vh;
+  } 
+  & .gray-content {
+    min-height: 17vh;
+  }
+
+  
+  .service-list {
+    display: flex;
+    text-align: left;
+    align-items: center;
+
+    .wind-img {
+      width: 40.2vw;
+      @media (max-width: $xs-screen) {
+        height: 25vh;
+      }
+    }
+    li {
+      line-height: 2.083vw;
+      img {
+        margin-right: 7px;
+        width: 0.625vw;
+      }
+      span {
+        font-size: 1.5vw;
+      }
+    }
+  }
+}

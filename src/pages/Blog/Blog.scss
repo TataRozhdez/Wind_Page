@@ -1,0 +1,22 @@
+@import '../../resoureces/variables';
+
+.blog {
+  width: 100vw;
+  i {
+    font-size: 1rem;
+    @media (max-width: $xs-screen) {
+      font-size: 7px;
+    } 
+  }
+  @media (max-width: $xs-screen) {
+    font-size: 7px;
+  }  
+
+  .technitian {
+    width: 48.611vw;
+    margin: 20px 0;
+    @media (max-width: $xs-screen) {
+      margin: 5px 0;
+    }  
+  }
+}

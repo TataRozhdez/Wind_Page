@@ -1,0 +1,27 @@
+@import '../../resoureces/variables';
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: space-evenly;
+  background-color: $bck-color;
+  width: 100vw;
+  padding: $padding;
+
+  .foot-item {
+    display: flex;
+    flex-direction: column;
+    h3 {
+      font-size: 1.7vw;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: $txt-color;
+      font-size: 1.389vw;
+    }
+  }
+  img {
+    width: 12.5vw;
+  }
+}
